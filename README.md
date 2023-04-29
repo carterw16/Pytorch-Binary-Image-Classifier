@@ -16,10 +16,10 @@ The train_model() function first gets the data and preprocesses it using generat
 
 The model is then trained on a training set of images. Every 5 batches of data the model is tested against a validation set of images and the results from that test are saved to batch_results.pth (loss and accuracy). If a new best accuracy was achieved, the model's state is saved to model.pth. After training is complete, the data from batch_results.pth is used to plot validation loss and accuracy over time in plots.png.
 
-<img src="plots.png?raw=true" width="400">
+<img src="plots.png?raw=true" width="600">
 
 ## Making a prediction
-`python predict.py <path to image>
+`python predict.py <path to image>`
 
 The predict_image() function preprocesses a given image, loads the saved model from model.pth, and uses it to classify the image as a cat or a dog.
 
