@@ -24,5 +24,7 @@ The model is then trained on a training set of images. Every 5 batches of data t
 The predict_image() function preprocesses a given image, loads the saved model from model.pth, and uses it to classify the image as a cat or a dog.
 
 ### Example:
-Input Image: <img src="example_dog.jpg?raw=true" width="400">
+Input Image: 
+<img src="example_dog.jpg?raw=true" width="400">
+
 Command-Line Output: Dog
